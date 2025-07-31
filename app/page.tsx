@@ -80,6 +80,11 @@ export default function Home() {
     setShowSuccess(true)
     setFormData({ email: '', evmAddress: connectedAddress || '', xAccount: '' })
     
+    // Open Twitter with pre-filled tweet
+    const tweetText = encodeURIComponent('I registered to ThalorFi, the autonomous DeFi infrastructure that orchestrates real-time capital movements across protocols with AI-native intelligence. Join the revolution. https://thalorfi.com https://x.com/ThalorFi')
+    const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}`
+    window.open(twitterUrl, '_blank')
+    
     setTimeout(() => {
       setShowSuccess(false)
     }, 5000)
