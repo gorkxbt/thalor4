@@ -2,13 +2,13 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'ThalorFi - DeFi Innovation',
+  title: 'ThalorFi',
   description: 'Autonomous and transparent DeFi infrastructure powered by AI',
   keywords: 'ThalorFi, DeFi, Web3, AI, blockchain, cryptocurrency, decentralized finance',
   authors: [{ name: 'ThalorFi' }],
   robots: 'index, follow',
   openGraph: {
-    title: 'ThalorFi - Autonomous and transparent DeFi infrastructure powered by AI',
+    title: 'ThalorFi',
     description: 'Join the future of decentralized finance with ThalorFi\'s AI-powered DeFi infrastructure.',
     type: 'website',
     url: 'https://thalorfi.com',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ThalorFi - Autonomous and transparent DeFi infrastructure powered by AI',
+    title: 'ThalorFi',
     description: 'Join the future of decentralized finance with ThalorFi\'s AI-powered DeFi infrastructure.',
     creator: '@ThalorFi',
   },
