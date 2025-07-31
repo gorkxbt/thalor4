@@ -118,8 +118,8 @@ export default function Home() {
       <div className="absolute top-[45%] left-[5%] w-[90px] h-[90px] bg-radial-gradient-white-very-light rounded-full animate-float7 pointer-events-none blur-[1px]"></div>
 
       {/* Logo top left */}
-      <div className="fixed top-[30px] left-[30px] w-[70px] h-[70px] bg-white/90 rounded-full flex items-center justify-center shadow-lg z-[1000] transition-all duration-300 hover:scale-110 hover:shadow-xl border border-white/30">
-        <Image src="/logo.png" alt="ThalorFi Logo" width={50} height={50} className="object-contain" />
+      <div className="fixed top-[30px] left-[30px] w-[70px] h-[70px] bg-white/90 rounded-full flex items-center justify-center shadow-lg z-[1000] transition-all duration-300 hover:scale-110 hover:shadow-xl border border-white/30 overflow-hidden">
+        <Image src="/logo.png" alt="ThalorFi Logo" width={70} height={70} className="object-cover w-full h-full" />
       </div>
 
       {/* Connect wallet button */}
