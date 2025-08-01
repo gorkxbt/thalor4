@@ -81,7 +81,7 @@ export default function Home() {
     setFormData({ email: '', evmAddress: connectedAddress || '', xAccount: '' })
     
     // Open Twitter with pre-filled tweet
-    const tweetText = encodeURIComponent(`I registered to @ThalorFi, the autonomous DeFi infrastructure that orchestrates real-time capital movements across protocols with AI-native intelligence.\n\nJoin the revolution. \n\nhttps://thalorfi.com \nhttps://x.com/ThalorFi`)
+    const tweetText = encodeURIComponent(`I registered to @ThalorFi, the autonomous DeFi infrastructure that orchestrates real-time capital movements across protocols with AI-native intelligence.\n\nJoin the revolution. \n\nhttps://thalor.finance \nhttps://x.com/ThalorFi`)
     const twitterUrl = `https://twitter.com/intent/tweet?text=${tweetText}`
     window.open(twitterUrl, '_blank')
     
